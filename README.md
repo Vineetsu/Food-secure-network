@@ -1,73 +1,36 @@
-# Welcome to your Lovable project
+# 🍽️ Food Secure Network
 
-## Project info
+**Food Secure Network** is a web application designed to bridge the gap between food donors (restaurants, grocery stores, etc.) and recipients (local charities, shelters). By facilitating real-time surplus food tracking and distribution, the app helps reduce food waste while combating hunger in communities.
 
-**URL**: https://lovable.dev/projects/26d295f8-e1dc-4426-84e8-76a10fc84af4
+## 🌟 Features
 
-## How can I edit this code?
+- 📦 **Food Donation Management** — Donors can list surplus food items with quantity and pickup details.
+- 📍 **Real-Time Tracking** — Track available food donations in real-time on a map.
+- 🤝 **Charity Matching System** — Matches available food to the nearest eligible charities or NGOs.
+- 📞 **Integrated Contact System** — Enables quick contact between donors and recipients.
+- 🔐 **User Roles & Authentication** — Separate dashboards for donors, recipients, and admins.
+- 🌐 **Bilingual UI** — English and regional language support for better accessibility.
+- 🚚 **Pickup & Delivery Coordination** — Option to mark pickup status and update availability.
 
-There are several ways of editing your application.
 
-**Use Lovable**
+## ⚙️ How It Works
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/26d295f8-e1dc-4426-84e8-76a10fc84af4) and start prompting.
+1. **Donor adds food** ➜
+2. **System finds closest charities** ➜
+3. **Charities confirm availability** ➜
+4. **Pickup scheduled** ➜
+5. **Food successfully redirected from waste to need!**
 
-Changes made via Lovable will be committed automatically to this repo.
 
-**Use your preferred IDE**
+## 🛠️ Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
+**Frontend:**
+- React.js
 - Tailwind CSS
+- Mapbox or Leaflet for food map visualization
+- Axios for API requests
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/26d295f8-e1dc-4426-84e8-76a10fc84af4) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+**Backend:**
+- Node.js
+- Express.js
+- MongoDB (Mongoose ODM)
