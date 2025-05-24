@@ -1,5 +1,8 @@
 # 🍽️ Food Secure Network
 
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=500&color=00C1FF&center=true&vCenter=true&multiline=true&repeat=false&width=800&height=100&lines=Hi+there!+I'm+Vineet+S+U+%F0%9F%91%8B;A+Full-Stack+Developer+%7C+Cloud+Enthusiast+%7C+AI+Innovator" alt="Welcome Banner" />
+
+
 **Food Secure Network** is a web application designed to bridge the gap between food donors (restaurants, grocery stores, etc.) and recipients (local charities, shelters). By facilitating real-time surplus food tracking and distribution, the app helps reduce food waste while combating hunger in communities.
 
 ## 🌟 Features
